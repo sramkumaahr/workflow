@@ -1,0 +1,12 @@
+name: reuse workflow
+on: workflow_dispatch
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output information
+        run: echo "going good"
+
+
+
+
